@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () =>{
         Promise.all(prom).then((res) => {
             const pokemons = res.map((subj) => ({
                 name: subj.name,
-                id: subj.id,
                 image: subj.sprites['front_default'],
             }));
             displayRandom(pokemons);
