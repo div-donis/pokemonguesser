@@ -83,7 +83,7 @@ h1{
 div.nav{
     top: 0;
    position:fixed;
-   background: #FF6B4D);
+   background: #FF6B4D;
    z-index: 4;
    width: 100%;
 }
